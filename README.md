@@ -5,12 +5,12 @@
 
 
 
-# xNIDS: Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses
+## xNIDS: Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses
 
 This repo includes the source code for the "Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses" project. The code is hardware-independent and can be optimized for execution on Google Colab.
 
  
-# Implementation Notes
+## Implementation Notes
 
 Testing and running the code is straightforward, giving users the flexibility to utilize either Google Colab or a local machine for their testing purposes.
 
@@ -33,7 +33,7 @@ Testing and running the code is straightforward, giving users the flexibility to
     - **kitsune.ipynb** contains the reimplementation of kitnet.
     - **kdd.ipynb** includes one *Autoencoder* and one **stateless** *RNN* based DL-NIDS
     - **kdd_histroy.ipynb** contains one **stateful** LSTM based DL-NIDS
-# Citation & Paper
+## Citation & Paper
 
 
 The results of this project was published in the paper entitled "xNIDS: Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses" in the USENIX Security 2023. If you want to cite our paper in your work, please use the following BibTeX entry.
