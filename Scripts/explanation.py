@@ -39,22 +39,23 @@ class Explanation:
 
     def search_proper_input(self):
       step = 0  # Current step
-      while step < self.step:
-          for i in range(len(self.history_samples)):
-
+      for i in range(len(self.history_samples)):
+          if step <= self.step:
               self.new_input = self.history_samples[-(i+1):]
               print(len(self.new_input))
               model = keras.models.load_model(self.model_path)  # Load the Keras model
               new_current_score  = model.predict(self.new_input,batch_size=1)
               current_score  = new_current_score [-1]
-              print("searcheed current score", current_score)
+              print("searched current score", current_score)
               current_delta  = abs(current_score - self.original_score)
 
               if current_delta <= self.delta:
                 return self.new_input  # Found proper input
-
-          self.step += 1
-          i *= 2  # Double the value of i
+              step += 1
+              i *= 2  # Double the value of i
+          else:
+            print("Cannot find the proper input within the max steps")
+            return self.current_sample  # Cannot find proper input
 
       return None  # Proper input not found within max_steps
 
