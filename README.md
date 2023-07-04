@@ -32,7 +32,12 @@ Testing and running the code is straightforward, giving users the flexibility to
     - Please carefully update the testcases accordingly in the **explantion.py** if the users want to retrain the models. 
     - **kitsune.ipynb** contains the reimplementation of kitnet. Please download the dataset and put them under the **Data** folder.
     - **kdd.ipynb** includes one *Autoencoder* and one **stateless** *RNN* based DL-NIDS
-    - **kdd_histroy.ipynb** contains one **stateful** LSTM based DL-NIDS. 
+    - **kdd_histroy.ipynb** contains one **stateful** LSTM based DL-NIDS.
+
+## Contribute
+
+Contributions are always welcome! 
+
 ## Citation & Paper
 
 
