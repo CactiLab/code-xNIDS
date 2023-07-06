@@ -24,7 +24,7 @@ Testing and running the code is straightforward, giving users the flexibility to
      
 2. **Local Machine**:
    
-   > pip install -r requirement.txt
+   > pip install -r requirements.txt
    
    > python explanation.py
    
