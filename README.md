@@ -50,5 +50,7 @@ The results of this project was published in the paper entitled "xNIDS: Explaini
  booktitle = {{USENIX Security}},
  year = {2023},
 }
+## Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=CactiLab/code-xNIDS&type=Date)](https://star-history.com/#CactiLab/code-xNIDS&Date)
 ```
